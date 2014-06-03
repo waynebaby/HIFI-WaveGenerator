@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HIFI_WaveGenerator.Core
+namespace HIFI_WaveGenerator.Core.Abstractions
 {
 	public enum SamplingRate
 	{			

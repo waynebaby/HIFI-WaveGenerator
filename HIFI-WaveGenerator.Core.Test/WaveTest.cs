@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace HIFI_WaveGenerator.Core.Test
+namespace HIFI_WaveGenerator.Core.Abstractions.Test
 {
 	[TestClass]
 	public class WaveTest

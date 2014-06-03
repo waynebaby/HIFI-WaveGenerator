@@ -1,5 +1,5 @@
 ﻿using System;
-namespace HIFI_WaveGenerator.Core
+namespace HIFI_WaveGenerator.Core.Abstractions
 {
 	public interface IWaveOutputDescription
 	{
