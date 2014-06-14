@@ -15,7 +15,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Models\WaveDescription.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Startups\StartupFunctions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainPage_Model.cs" />
   </ItemGroup>

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HIFI_WaveGenerator.Core.Abstractions
 {
-	public interface IGenerationTaskStream
+	public interface IGenerationTask
 	{
 		/// <summary>
 		/// 输出的格式描述
@@ -32,4 +32,6 @@ namespace HIFI_WaveGenerator.Core.Abstractions
 		TimeSpan CurrentBufferSize { get;  }
 
 	}
+
+
 }

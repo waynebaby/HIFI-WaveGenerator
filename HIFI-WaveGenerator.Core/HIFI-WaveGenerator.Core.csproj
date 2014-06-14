@@ -40,14 +40,18 @@
     <Compile Include="Abstractions\IWaveDataFunction.cs" />
     <Compile Include="Abstractions\IWaveOutputDescription.cs" />
     <Compile Include="Abstractions\SamplingEnums.cs" />
-    <Compile Include="GenertationTaskStream.cs" />
+    <Compile Include="ByteBufferGenerationStream.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Abstractions\SamplingValues.cs" />
+    <Compile Include="ReadOnlyStream.cs" />
     <Compile Include="WaveDataChannelContext.cs" />
+    <Compile Include="GeneratingWaveStream.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Threading.Tasks">
