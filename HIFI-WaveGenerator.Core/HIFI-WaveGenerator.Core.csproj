@@ -39,13 +39,18 @@
     <Compile Include="Abstractions\IWaveDataChannelContext.cs" />
     <Compile Include="Abstractions\IWaveDataFunction.cs" />
     <Compile Include="Abstractions\IWaveOutputDescription.cs" />
+    <Compile Include="Abstractions\SamplingValueHelper.cs" />
     <Compile Include="Abstractions\SamplingEnums.cs" />
-    <Compile Include="ByteBufferGenerationStream.cs" />
+    <Compile Include="WaveDataFunctions.cs" />
+    <Compile Include="Streams\ByteBufferGenerationStream.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Abstractions\SamplingValues.cs" />
-    <Compile Include="ReadOnlyStream.cs" />
+    <Compile Include="Streams\ReadOnlyStream.cs" />
     <Compile Include="WaveDataChannelContext.cs" />
-    <Compile Include="GeneratingWaveStream.cs" />
+    <Compile Include="GenerationTask.cs" />
+    <Compile Include="WaveOutputDescription.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

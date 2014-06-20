@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace HIFI_WaveGenerator.Core
+namespace HIFI_WaveGenerator.Core.Streams
 {
 
 	public class ByteBufferGenerationStream : ReadOnlyStream, IDisposable

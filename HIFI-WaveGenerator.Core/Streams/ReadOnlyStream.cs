@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace HIFI_WaveGenerator.Core
+namespace HIFI_WaveGenerator.Core.Streams
 {
 	public abstract class ReadOnlyStream : Stream
 	{

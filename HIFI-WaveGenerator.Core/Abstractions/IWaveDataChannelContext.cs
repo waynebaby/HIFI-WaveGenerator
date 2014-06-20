@@ -10,7 +10,8 @@ namespace HIFI_WaveGenerator.Core.Abstractions
 		string Name { get; }
 		TimeSpan StartDelta { get; set; }
 		TimeSpan CurrentPosition { get; set; }
-		Double SpeedRate { get; set; }											 
-		IWaveDataFunction<TimeSpan, object> DataFunction { get; set; }
+		Double SpeedRate { get; set; }
+
+		IWaveDataFunction WaveDataFunction { get; set; }
 	}
 }

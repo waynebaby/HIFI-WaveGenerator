@@ -6,18 +6,18 @@ namespace HIFI_WaveGenerator.Core.Abstractions
 		/// <summary>
 		/// 声道数量
 		/// </summary>
-		int ChannelCount { get; set; }
+		int ChannelCount { get; }
 		/// <summary>
 		/// 采样深度
 		/// </summary>
-		SamplingDepth SamplingDepth { get; set; }
+		SamplingDepth SamplingDepth { get; }
 		/// <summary>
 		/// 输出类型名
 		/// </summary>
-		string Name { get; set; }
+		string Name { get; }
 		/// <summary>
 		/// 输出采样率
 		/// </summary>
-		SamplingRate SamplingRate { get; set; }
+		SamplingRate SamplingRate { get;}
 	}
 }

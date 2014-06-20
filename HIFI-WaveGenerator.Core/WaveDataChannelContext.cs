@@ -33,7 +33,10 @@ namespace HIFI_WaveGenerator.Core
 			set;
 		}
 
-		public IWaveDataFunction<TimeSpan, object> DataFunction
+
+
+
+		public IWaveDataFunction WaveDataFunction
 		{
 			get;
 			set;

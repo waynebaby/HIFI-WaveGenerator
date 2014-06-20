@@ -5,13 +5,8 @@ using System.Text;
 
 namespace HIFI_WaveGenerator.Core.Abstractions
 {
-	public interface IWaveDataFunction
+	public static class SamplingValueHelper
 	{
-		double ComputeValue(TimeSpan input);
-
-		TimeSpan LoopLength { get; }
-
+		//public static MapTo
 	}
-
-
 }
