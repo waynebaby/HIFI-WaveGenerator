@@ -15,7 +15,7 @@ namespace TestingConsole
 			var bffs = Enumerable.Range(0, 256).Select(x => (byte)x)
 				.ToArray();
 
-			var stm = new HIFI_WaveGenerator.Core.ByteBufferGenerationStream(() => new[] { new ArraySegment<byte>(bffs, 0, 256) }, 1024);
+			var stm = new HIFI_WaveGenerator.Core.Streams.ByteBufferGenerationStream(() => new[] { new ArraySegment<byte>(bffs, 0, 256) }, 1024);
 
 
 			var s = new StreamReader(stm);
@@ -26,7 +26,7 @@ namespace TestingConsole
 				Console.WriteLine(x);
 				Console.ReadLine();
 			}
-		
+
 		}
 	}
 }
